@@ -10,12 +10,13 @@ while True:
   else:
     switchState=0
   
-  randomchance=random.randint(0,100)
-  if randomchance==69:
+  randomchance1=random.randint(0,100)
+  if randomchance1==69:
     print("the light is somehow liked. you win")
+    round1=1
     break
   else:
-    (switchState)==0
+    (switchState)==0 
     time.sleep(random.randint(0,5))
     print("the light is not liked. it is now off") 
     (switchAction)==0
